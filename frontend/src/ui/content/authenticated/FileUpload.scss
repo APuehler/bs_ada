@@ -1,0 +1,38 @@
+.file-upload {
+    margin: 10px;
+
+    &__drop_area {
+        margin: {
+            top: 10px;
+            bottom: 10px;
+        }
+
+        min-height: 200px;
+
+        border: {
+            width: 2px;
+            style: dashed;
+            color: #757575;
+        }
+
+        background-color: #f0f0f0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__button_area {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+
+.drop-area__message {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}

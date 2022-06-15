@@ -1,0 +1,26 @@
+spring:
+  
+  servlet:
+    multipart:
+      fileSizeThreshold: 100MB
+      enabled: 'true'
+      max-request-size: 100MB
+      max-file-size: 100MB
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: '123'
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: 'true'
+    hibernate:
+      ddl-auto: create-drop   
+server:
+  port: '8080'
+  tomcat:
+    max-swallow-size: 100MB
+    max-http-form-post-size: 100MB

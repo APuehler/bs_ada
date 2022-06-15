@@ -1,0 +1,30 @@
+{
+    "short_name": "ADA",
+    "name": "Azubi Digital Akademie",
+    "icons": [
+        {
+            "src": "cropped-FAV-Azubi-Digital-Akademie-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "cropped-FAV-Azubi-Digital-Akademie-180x180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "cropped-FAV-Azubi-Digital-Akademie-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "cropped-FAV-Azubi-Digital-Akademie-270x270.png",
+            "type": "image/png",
+            "sizes": "270x270"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
